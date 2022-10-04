@@ -6,8 +6,7 @@
 4. Make a Pull Request.
 5. Dicuss about that in the commments.
 
-
-# Create an Issue
+## Create an Issue
 
 1. Find an issue an go to create an issue section.
 2. Go to the template section find an appropriate template create an issue.
