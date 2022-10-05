@@ -9,4 +9,4 @@
 ## Create an Issue
 
 1. Find an issue an go to create an issue section.
-2. Go to the template section find an appropriate template create an issue.
+2. Go to the template section find an appropriate template for creating an issue.
