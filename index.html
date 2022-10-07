@@ -11,7 +11,7 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
-
+    <script src="https://kit.fontawesome.com/01177c3761.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,10 +27,12 @@
 
   <body>
     <section id="title">
+      <i class="fa-solid fa-moon fa-3x"></i>
+      <i class="fa-solid fa-sun fa-3x"></i>
       <div class="container-fluid" style="padding-top: 0;padding-bottom:1% ">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-light ">
-          <a class="navbar-brand" href="#">rezumer</a>
+          <a class="navbar-brand" href="#"><h1>rezumer</h1></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -207,6 +209,14 @@
       const loginBtn = document.querySelector("label.login");
       const signupBtn = document.querySelector("label.signup");
       const signupLink = document.querySelector("form .signup-link a");
+      const icon = document.querySelector('.fa-moon');
+      const icon2 = document.querySelector('.fa-sun');
+      icon.addEventListener('click',()=>{
+        document.body.classList.toggle('dark-theme');
+      })
+      icon2.addEventListener('click',()=>{
+        document.body.classList.toggle('dark-theme');
+      })
       signupBtn.onclick = (()=>{
         loginForm.style.marginLeft = "-50%";
         loginText.style.marginLeft = "-50%";
