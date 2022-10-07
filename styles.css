@@ -1,9 +1,24 @@
 body{
     font-family: "montserrat";
+    background-color: var(--first);
 }
 
+:root{
+  --first:white;
+  --title:#000;
+  --p-features:#8f8f8f;
+}
+
+.dark-theme{
+  --first:#000;
+  --title:white;
+  --p-features: wheat;
+  --transition-delay: 1s;
+  transition: var(--transition-delay);
+}
 #title{
-    background-color: #fff;
+    background-color: var(--first);
+    transition: var(--transition-delay);
     /* background-color: rgb(23, 21, 21); */
     /* background-color: #ff4c68; */
     color: #000;
@@ -14,8 +29,11 @@ h1{
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
+    color: var(--title);
 }
-
+h3{
+  color: var(--title);
+}
 .container-fluid{
     padding: 3% 15%;
 }
@@ -41,6 +59,7 @@ h1{
 
 .btn-download{
     margin: 5% 3% 5% 0;
+    color: var(--title);
 }
 
 
@@ -72,13 +91,13 @@ h3{
 
 .feature{
     padding: 7% 15% ;
-    background-color: #fff;
+    background-color: var(--first);
     /* background-color: #FFC7C7; */
 } 
 
 .p-features{
     font-family: "Montserrat-Bold" ;
-    color: #8f8f8f;
+    color: var(--p-features);
     padding: 3% 13%;
     font-size: larger;
     
@@ -110,7 +129,7 @@ h3{
 
 #footer{
     text-align: center;
-    background-color: white;
+    background-color: var(--first);
     padding: 7% 15%;
     font-family: "Montserrat-Bold";
     font-size: large;
@@ -299,4 +318,34 @@ h3{
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+  }
+
+  i{
+    color: var(--title);
+  }
+  p{
+    color: var(--title);
+  }
+  .fa-moon{
+    position: absolute;
+    right: 120px;
+    top: 40px;
+    cursor: pointer;
+  }
+  .fa-moon:hover,
+  .fa-moon:focus{
+    transform: scale(1.1);
+  }
+  .fa-sun{
+    position: absolute;
+    cursor: pointer;
+    right: 150px;
+    top: 40px;
+    opacity: 0;
+  }
+  .dark-theme .fa-sun{
+    opacity: 1;
+  }
+  .dark-theme .fa-moon{
+    opacity: 0;
   }
