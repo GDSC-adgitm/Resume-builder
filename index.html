@@ -13,7 +13,7 @@
     />
     <script src="https://kit.fontawesome.com/01177c3761.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -58,7 +58,7 @@
         </nav>
 
         <!-- Title -->
-        <div class="row">
+        <div class="row" data-aos="fade-left" data-aos-delay="3">
           <div class="col-lg-7">
             <h1>
               Make Your 
@@ -142,7 +142,7 @@
     <!-- Features -->
 
     <section  id="features" style="margin-top:15% ;" >
-      <div class="row feature">
+      <div class="row feature" data-aos="fade-up" data-aos-delay="100">
         <div class="col-lg-4">
           <i class="icon fas fa-check-circle fa-4x"></i>
           <h3>Easy to use.</h3>
@@ -163,7 +163,7 @@
     </section>
 
     <section  id="features">
-        <div class="row feature">
+        <div class="row feature" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-4">
             <i class="icon fas fa-check-circle fa-4x"></i>
             <h3>Free and Premium</h3>
@@ -194,7 +194,7 @@
 
     <!-- Footer -->
 
-    <footer id="footer">
+    <footer id="footer" data-aos="zoom-in-up">
       <i class="fab fa-facebook-f i"></i>
       <i class="fab fa-twitter i"></i>
       <i class="fab fa-instagram i"></i>
@@ -241,5 +241,9 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
