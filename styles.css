@@ -418,8 +418,8 @@ h3{
     margin-bottom:0;
   }
   
-  https://epicbootstrap.com/snippets/footer-dark
-=======
+  /* https://epicbootstrap.com/snippets/footer-dark
+======= */
 
   i{
     color: var(--title);
@@ -451,3 +451,44 @@ h3{
     opacity: 0;
   }
 
+  .steps{
+    border-radius: 20%;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    background: linear-gradient( #ef8172, #ffc3bb);
+    /* background-color: #ef8172; */
+    color: #fff;
+  }
+  .heading{
+    text-align: center;
+    color: white;
+    margin-top: 4%;
+  }
+  
+  .card{
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+  }
+  
+  .card-title{
+    margin-top: 3%;
+    text-align: center;
+  }
+  .card-text{
+    margin-top:3% ;
+    text-align: center;
+    font-weight: 100;
+  }
+  
+  @media only screen and (max-width: 600px){
+    .steps{
+      border-radius: 0%;
+      width: 100%;
+      height: auto;
+      margin: auto;
+      background: linear-gradient( #a445b2, #fa4299, #a445b2, #fa4299);
+    }
+  }
+  
