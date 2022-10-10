@@ -42,28 +42,6 @@ h1{
 h3{
   color: var(--title);
 }
-.container-fluid{
-    padding: 3% 15%;
-}
-
-.navbar-brand{
-    font-family: "ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.navbar{
-    padding: 0 0 4.5rem ;
-}
-
-.nav-link{
-    font-size: 1.2rem;
-    font-family: "Montserrat-Light";
-}
-
-.nav-item{
-    padding: 0 18px;
-}
 
 .btn-download{
     margin: 5% 3% 5% 0;
@@ -418,8 +396,8 @@ h3{
     margin-bottom:0;
   }
   
-  https://epicbootstrap.com/snippets/footer-dark
-=======
+  /* https://epicbootstrap.com/snippets/footer-dark
+======= */
 
   i{
     color: var(--title);
@@ -427,27 +405,49 @@ h3{
   p{
     color: var(--title);
   }
-  .fa-moon{
-    position: absolute;
-    right: 120px;
-    top: 40px;
-    cursor: pointer;
-  }
-  .fa-moon:hover,
-  .fa-moon:focus{
-    transform: scale(1.1);
-  }
-  .fa-sun{
-    position: absolute;
-    cursor: pointer;
-    right: 150px;
-    top: 40px;
-    opacity: 0;
-  }
-  .dark-theme .fa-sun{
-    opacity: 1;
-  }
-  .dark-theme .fa-moon{
-    opacity: 0;
-  }
+ 
+.navbar{
+  background-color: rebeccapurple;
+  margin-bottom: 40px;
+}
+.btn-secondary{
+  margin-left: 3px;
+  height: 35px;
+}
+.nav-item1{
+  margin-left: 480px;
+}
+.nav-item{
+  margin-left: 40px;
+}
+h1{
+  margin-left: 40px;
+}
 
+.fa-moon{
+  position: absolute;
+  top: 80px;
+  right: 90px;
+  cursor: pointer;
+}
+.fa-sun{
+  position: absolute;
+  top: 80px;
+  right: 140px;
+  cursor: pointer;
+  opacity: 0;
+}
+.fa-moon:hover,
+.fa-moon:focus{
+  transform: scale(1.1);
+}
+.fa-sun:hover,
+.fa-sun:focus{
+  transform: scale(1.1);
+}
+.dark-theme .fa-sun{
+  opacity: 1;
+}
+.dark-theme .fa-moon{
+  opacity: 0;
+}
