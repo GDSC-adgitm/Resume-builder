@@ -14,6 +14,7 @@ body{
   --first:white;
   --title:#000;
   --p-features:#8f8f8f;
+  --purple: #1E1E1E;
   
 }
 
@@ -42,9 +43,7 @@ h1{
 h3{
   color: var(--title);
 }
-.container-fluid{
-    padding: 3% 15%;
-}
+
 
 .navbar-brand{
     font-family: "ubuntu";
@@ -63,6 +62,82 @@ h3{
 
 .nav-item{
     padding: 0 18px;
+}
+
+
+/*-----home---------*/
+.home-section{
+  background-color: #362049; 
+  margin: 0 !important; 
+  padding: 0 !important;
+  color: white;
+ 
+}
+.home-container{
+  display: grid;
+  grid-template-columns: 40% 60%;
+
+}
+.first-child{
+  background-image: linear-gradient(to right, #1A0e28 , #2e2044, #27193b, #180b23);
+}
+.main{
+  position: relative;
+}
+.main-box{
+  display: flex;
+  margin: auto;
+  margin-top: 0px;
+  width: 500px;
+  height: 300px;
+  background-color: #1b0d26;
+  border-radius: 10px;
+  margin-top: -200px;
+}
+.small-circle{
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+.second-child h1, h3, h4, p{
+  text-align: center;
+  color: #fff;
+  padding: 80px;
+}
+.home-images{
+  position: relative;
+  height: 300px;
+  width: 250px;
+  z-index: 9;
+  margin-top: 200px !important;
+  display: flex;
+  margin: auto;
+  margin-left:230px;
+}
+.home-heading{
+  color: #f8e3ff;
+  text-align: center;
+  margin-top: 90px;
+}
+.home-subheading{
+  margin-top: 0;
+}
+.home-p{
+  margin-top: -100px;
+}
+.home-btn{
+  height:50px;
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #524755;
+  border: 1px solid #524755;
+  border-radius: 20px;
+
+  color: #fff;
+ margin-left: 35%;
 }
 
 .btn-download{
