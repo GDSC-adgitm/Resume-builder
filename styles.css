@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 * , ::before , ::after {
   margin: 0;
   padding: 0;
@@ -64,7 +67,6 @@ h3{
 .nav-item{
     padding: 0 18px;
 }
-=======
 
 
 
@@ -507,8 +509,9 @@ h3{
   }
  
 .navbar{
-  background-color: rebeccapurple;
-  margin-bottom: 40px;
+  background: linear-gradient(90deg, #3F2F5C 0%, #2E1136 98.44%);
+  color: white;
+  /* margin-bottom: 40px; */
 }
 .btn-secondary{
   margin-left: 3px;
@@ -550,6 +553,84 @@ h1{
 }
 .dark-theme .fa-moon{
   opacity: 0;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #3F2F5C 0%, #2E1136 98.44%);
+  padding: 1rem 1.5rem;
+  font-family: 'Alice', serif;
+  border-bottom: 0.5px solid white;
+}
+
+nav .nav_left input{
+  padding: 0 1rem;
+  border-radius: 999px;
+  outline: none;
+  border: none;
+}
+
+nav .nav_right select{
+  background: none;
+  color: white;
+  border: none;
+  outline: none;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+nav button{
+  background-color: gray;
+  color: white;
+  padding: 0.25rem 1.5rem;
+  border: none;
+  border-radius: 999px;
+  transition: all 0.3s ease-in-out;
+  margin: 0 0.25rem;
+}
+nav button:hover{
+  color: black;
+  background-color: white;
+}
+
+.get-started{
+  position: relative;
+  color: white;
+}
+
+.get-started-info{
+  position: absolute;
+  top: 39%;
+  left: 37%;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.get-started-info h1{
+  color: white;
+  font-family: 'Alice', serif;
+}
+.get-started-info button{
+  border: none;
+  font-family: 'Alata', sans-serif;
+  color: #2F1237;
+  background: #D1B3D9;
+  padding: 0.25rem 1.5rem;
+  border-radius: 999px;
+}
+.get-started-info-socials{
+  display: flex;
+}
+.get-started-info-socials a{
+  background: white;
+  border-radius: 999px;
+  padding: 0.25rem 0.4rem;
+  margin: 1rem 0.25rem;
+}
+.get-started-info-socials a img{
+  height: 20px;
 }
 .steps{
   border-radius: 20%;
