@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+
 }
 
 body{
@@ -405,6 +405,35 @@ h3{
     font-weight: 500;
     cursor: pointer;
   }
+
+
+  /*----------good resume----------*/
+  .grad{
+   
+      background-image: linear-gradient(to right, #524755, #524755, #433a46, #38303a, #373039 );
+    
+  }
+  .resume-section{
+    margin: 0 !important;
+    padding: 0 !important;
+    
+  }
+  .content-box{
+    margin: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-family: 'Didact Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 32px;
+padding: 40px;
+margin-top: -50px;
+  }
+
+
+  /*------footer-------*/
 
   .footer-dark {
     padding:50px 0;
