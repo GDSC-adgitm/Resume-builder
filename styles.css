@@ -572,3 +572,113 @@ h1{
     background: linear-gradient( #a445b2, #fa4299, #a445b2, #fa4299);
   }
 }
+
+/*about us*/
+.container-abt{
+  height: 400px;
+   border-radius: 20px;
+   background-color: linear-gradient(to right, red,yellow);
+}
+
+/*--about--*/
+
+.About{
+  text-align: center;
+  width:90%;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.About h2{
+  
+}
+.grad1{
+  background-image: linear-gradient(to right, #3f305c, #3e2e5a, #3c2a55, #3a2650, #38224a, #331940, #2f1237);
+
+}
+.abc p{
+  text-align: left;
+  color: white !important;
+  padding-left: 180px;
+}
+.main-cnt{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.abc p{
+ 
+        font-family: 'Didact Gothic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 39px;
+        
+        color: #FFFFFF;
+}
+.bcd img{
+  margin-top: 300px !important;
+}
+.extra-info h4{
+  text-align: left;
+}
+.inf h4,p{
+  text-align: left;
+  font-size: 18px;
+  margin-left: -75px;
+
+}
+.inf h4{
+  margin-top: -150px;
+}
+.inf p{
+  margin-top: -150px;
+}
+.inf{
+  width: 50%;
+font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 44px;
+
+padding: 80px;
+color: #000000;
+}
+.fa-solid{
+  background-color: #524755;
+  color: white;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: -100px  !important;
+}
+
+.mail{
+  margin-left: 80px;
+  margin-top: -10px;
+}
+.social-media{
+  margin-top: -46px;
+}
+.Footer{
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+}
+.col{
+font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
