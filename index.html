@@ -1,365 +1,382 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-      crossorigin="anonymous"
-    />
-    <script src="https://kit.fontawesome.com/01177c3761.js" crossorigin="anonymous"></script>
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/01177c3761.js" crossorigin="anonymous"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="favicon_io/site.webmanifest">
-  
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 
-    <title>REZUMER</title>
-  </head>
-
-  <body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
 
 
-    <nav class="navbar navbar-expand-lg bg-light" style="background-color: #39244e !important; color: #fff !important; font-family: 'Alice'; font-style: normal; font-weight: 400;
+  <title>REZUMER</title>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg bg-light" style="background-color: #39244e !important; color: #fff !important; font-family: 'Alice'; font-style: normal; font-weight: 400;
     font-size: 25px;">
-    
-      <div class="container-fluid">
-       
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Resume
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Cover letter
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
+    <div class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header"></div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                CV
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+      <div class="nav-links">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Resume
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
             </li>
-
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Carrer
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Blog
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            
-          </form>
-        </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cover letter
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            CV
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Carrer
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
       </div>
-    </nav>
-    
-     
-      <section class="home-section" >
-        <!--<i class="fa-solid fa-moon fa-3x"></i>
+      <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="search">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
+    </div>
+  </nav>
+
+
+  <section class="home-section">
+    <!--<i class="fa-solid fa-moon fa-3x"></i>
         <i class="fa-solid fa-sun fa-3x"></i>-->
-  
-        <div class="home-container">
-          <div class="first-child">
-            <div class="main">
-            <img src="./images/resumeS.jpg" class="home-images">
-            <div class="main-box">
-              <div class="small-circle"></div>
-              <div class="small-circle"></div>
-              <div class="small-circle"></div>
-            </div>
-            </div>
-          </div>
-          <div class="secondchild"> 
-            <h1 class="home-heading">Rezumer</h1>
-            <h3 class="home-sub-heading">Our Resume Builder <br>makes it easy</h3>
-            <p class="home-p" style="color: #fff;">Lorem ipsum, dolor sit amet consectetur 
-              adipisicing elit. Totam quaerat facere quod dolorem 
-              laborum mollitia eius, eveniet culpa quasi repellendus 
-              deleniti odio. 
-              Doloremque praesentium iure earum asperiores 
-              eius illo architecto?</p>
-              <button class="home-btn" >Create your Resume</button>
-              <h4>Build Your Resume Fast and Easy</h4>
-          </div>
-        </div>
-      </section>
 
-     
-        <!-- Title -->
-        <div class="row" data-aos="fade-left" data-aos-delay="3">
-          <div class="col-lg-7">
-            <h1>
-              Make Your 
-            </h1>
-            <h1>Online Resume</h1>
-            <!-- <button type="button" class="btn btn-dark btn-lg btn-download"><i class="fab fa-apple"></i> Download</button> -->
-            <button type="button" class="btn btn-outline-dark btn-lg btn-download" style="margin-left:9% ;"> Get Started</button>
-          </div>
-
-          <div class="col-lg-5">
-            <div class="wrapper">
-                <div class="title-text">
-                   <div class="title login">
-                      Login Form
-                   </div>
-                   <div class="title signup">
-                      Signup Form
-                   </div>
-                </div>
-                <div class="form-container">
-                   <div class="slide-controls">
-                      <input type="radio" name="slide" id="login" checked>
-                      <input type="radio" name="slide" id="signup">
-                      <label for="login" class="slide login">Login</label>
-                      <label for="signup" class="slide signup">Signup</label>
-                      <div class="slider-tab"></div>
-                   </div>
-                   <div class="form-inner">
-                      <form action="#" class="login">
-                         <div class="field">
-                            <input type="text" placeholder="Email Address" required>
-                         </div>
-                         <div class="field">
-                            <input type="password" placeholder="Password" required>
-                         </div>
-                         <div class="pass-link">
-                            <a href="#">Forgot password?</a>
-                         </div>
-                         <div class="field btn">
-                            <div class="btn-layer"></div>
-                            <input type="submit" value="Login">
-                         </div>
-                         <div class="signup-link">
-                            Not a member? <a href="">Signup now</a>
-                         </div>
-                      </form>
-                      <form action="#" class="signup">
-                         <div class="field">
-                            <input type="text" placeholder="Email Address" required>
-                         </div>
-                         <div class="field">
-                            <input type="password" placeholder="Password" required>
-                         </div>
-                         <div class="field">
-                            <input type="password" placeholder="Confirm password" required>
-                         </div>
-                         <div class="field btn">
-                            <div class="btn-layer"></div>
-                            <input type="submit" value="Signup">
-                         </div>
-                      </form>
-                   </div>
-                </div>
-             </div>
-             
-       
+    <div class="home-container">
+      <div class="first-child">
+        <div class="main">
+          <img src="./images/resumeS.jpg" class="home-images">
+          <div class="main-box">
+            <div class="small-circle"></div>
+            <div class="small-circle"></div>
+            <div class="small-circle"></div>
           </div>
         </div>
       </div>
-      <div class="custom-shape-divider-bottom-1664999684">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-        </svg>
+      <div class="secondchild">
+        <h1 class="home-heading">Rezumer</h1>
+        <h3 class="home-sub-heading">Our Resume Builder <br>makes it easy</h3>
+        <p class="home-p" style="color: #fff;">Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Totam quaerat facere quod dolorem
+          laborum mollitia eius, eveniet culpa quasi repellendus
+          deleniti odio.
+          Doloremque praesentium iure earum asperiores
+          eius illo architecto?</p>
+        <button class="home-btn">Create your Resume</button>
+        <h4>Build Your Resume Fast and Easy</h4>
       </div>
-  
+    </div>
+  </section>
 
 
+  <!-- Title -->
+  <div class="row" data-aos="fade-left" data-aos-delay="3">
+    <div class="col-lg-7">
+      <h1>
+        Make Your
+      </h1>
+      <h1>Online Resume</h1>
+      <!-- <button type="button" class="btn btn-dark btn-lg btn-download"><i class="fab fa-apple"></i> Download</button> -->
+      <button type="button" class="btn btn-outline-dark btn-lg btn-download" style="margin-left:9% ;"> Get
+        Started</button>
+    </div>
 
-    <!-- Features -->
-
-    <section  id="features" style="margin-top:15% ;" >
-      <div class="row feature" data-aos="fade-up" data-aos-delay="100">
-        <div class="col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <h3>Easy to use.</h3>
-          <p class="p-features">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, molestias!</p>
+    <div class="col-lg-5">
+      <div class="wrapper">
+        <div class="title-text">
+          <div class="title login">
+            Login Form
+          </div>
+          <div class="title signup">
+            Signup Form
+          </div>
         </div>
-        <div class="col-lg-4">
-          <i class="icon fas fa-bullseye fa-4x"></i>
-          <h3>Make CV Online</h3>
-          <p class="p-features">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, praesentium.</p>
-        </div>
-        <div class="col-lg-4">
-          <i class="icon fas fa-heart fa-4x"></i>
-          <h3>Get Support 24/7 </h3>
-          <p class="p-features">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, aut!</p>
+        <div class="form-container">
+          <div class="slide-controls">
+            <input type="radio" name="slide" id="login" checked>
+            <input type="radio" name="slide" id="signup">
+            <label for="login" class="slide login">Login</label>
+            <label for="signup" class="slide signup">Signup</label>
+            <div class="slider-tab"></div>
+          </div>
+          <div class="form-inner">
+            <form action="#" class="login">
+              <div class="field">
+                <input type="text" placeholder="Email Address" required>
+              </div>
+              <div class="field">
+                <input type="password" placeholder="Password" required>
+              </div>
+              <div class="pass-link">
+                <a href="#">Forgot password?</a>
+              </div>
+              <div class="field btn">
+                <div class="btn-layer"></div>
+                <input type="submit" value="Login">
+              </div>
+              <div class="signup-link">
+                Not a member? <a href="">Signup now</a>
+              </div>
+            </form>
+            <form action="#" class="signup">
+              <div class="field">
+                <input type="text" placeholder="Email Address" required>
+              </div>
+              <div class="field">
+                <input type="password" placeholder="Password" required>
+              </div>
+              <div class="field">
+                <input type="password" placeholder="Confirm password" required>
+              </div>
+              <div class="field btn">
+                <div class="btn-layer"></div>
+                <input type="submit" value="Signup">
+              </div>
+            </form>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
+  </div>
+  <div class="custom-shape-divider-bottom-1664999684">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path
+        d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+        opacity=".25" class="shape-fill"></path>
+      <path
+        d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+        opacity=".5" class="shape-fill"></path>
+      <path
+        d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+        class="shape-fill"></path>
+    </svg>
+  </div>
 
-    </section>
 
-    <section  id="features">
-        <div class="row feature" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-4">
-            <i class="icon fas fa-check-circle fa-4x"></i>
-            <h3>Free and Premium</h3>
-            <p class="p-features">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, esse?</p>
-          </div>
-          <div class="col-lg-4">
-            <i class="icon fas fa-bullseye fa-4x"></i>
-            <h3>Easily Customisable</h3>
-            <p class="p-features">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quam.</p>
-          </div>
-          <div class="col-lg-4">
-            <i class="icon fas fa-heart fa-4x"></i>
-            <h3>Creative and Professional Resume Templates </h3>
-            <p class="p-features">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, deserunt.</p>
-          </div>
-        </div>
-  
-      </section>
 
-<!-- 
+
+  <!-- Features -->
+
+  <section id="features" style="margin-top:15% ;">
+    <div class="row feature" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-4">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3>Easy to use.</h3>
+        <p class="p-features">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, molestias!</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="icon fas fa-bullseye fa-4x"></i>
+        <h3>Make CV Online</h3>
+        <p class="p-features">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, praesentium.</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="icon fas fa-heart fa-4x"></i>
+        <h3>Get Support 24/7 </h3>
+        <p class="p-features">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, aut!</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="features">
+    <div class="row feature" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-4">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3>Free and Premium</h3>
+        <p class="p-features">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, esse?</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="icon fas fa-bullseye fa-4x"></i>
+        <h3>Easily Customisable</h3>
+        <p class="p-features">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quam.</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="icon fas fa-heart fa-4x"></i>
+        <h3>Creative and Professional Resume Templates </h3>
+        <p class="p-features">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, deserunt.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- 
     <section id="press">
         <h2>Build Your Resume Fast and Easy.</h2>
         <h6 >There's no software to download. No multi-part sign-up form. No long-winded<br> tutorials. Just a straightforward process.</h6>
     </section> -->
-<!-- steps to follow  -->
+  <!-- steps to follow  -->
 
-<div class="steps">
-  <div class="heading">
-    <h2>
-      Just 3 Steps & You're Done
-    </h2>
-  </div>
-  <!-- card1  -->
-  <div class="card mb-3" style="max-width: 80%;" data-aos="fade-down"
-  data-aos-easing="linear"
-  data-aos-duration="1500">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="https://www.careeraddict.com/uploads/article/58239/illustration-people-cv.jpg"
-          class="img-fluid rounded-start" alt="...">
+  <div class="steps">
+    <div class="heading">
+      <h2>
+        Just 3 Steps & You're Done
+      </h2>
+    </div>
+    <!-- card1  -->
+    <div class="card mb-3" style="max-width: 80%;" data-aos="fade-down" data-aos-easing="linear"
+      data-aos-duration="1500">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://www.careeraddict.com/uploads/article/58239/illustration-people-cv.jpg"
+            class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Code Your Own Resume</h5>
+            <p class="card-text">Code and fill information and our AI will analyse it.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
       </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Code Your Own Resume</h5>
-          <p class="card-text">Code and fill information and our AI will analyse it.</p>
-          <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+
+
+    <!-- card2  -->
+    <div class="card mb-3" style="max-width: 80%;" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+      data-aos-delay="1000" data-aos-offset="0">
+      <div class="row g-0">
+
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Edit anytime you want</h5>
+            <p class="card-text">Add skills and experiences whenever you want.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="https://cdn.dribbble.com/users/2136630/screenshots/4389878/adopti_video_2.gif"
+            class="img-fluid rounded-start" alt="...">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- card3  -->
+    <div class="card mb-3" style="max-width: 80%;" data-aos="fade-up" data-aos-duration="3000">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://www.excelsior.edu/wp-content/uploads/2019/03/resume.jpg" class="img-fluid rounded-start"
+            alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Download your resume</h5>
+            <p class="card-text">Download your awesome resume and land the job you are looking for.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
+  <!--about us -->
 
-  <!-- card2  -->
-  <div class="card mb-3" style="max-width: 80%;"data-aos="fade-zoom-in"
-  data-aos-easing="ease-in-back"
-  data-aos-delay="1000"
-  data-aos-offset="0">
-    <div class="row g-0">
-
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Edit anytime you want</h5>
-          <p class="card-text">Add skills and experiences whenever you want.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <img src="https://cdn.dribbble.com/users/2136630/screenshots/4389878/adopti_video_2.gif"
-          class="img-fluid rounded-start" alt="...">
-      </div>
-    </div>
-  </div>
-
-
-  <!-- card3  -->
-  <div class="card mb-3" style="max-width: 80%;"data-aos="fade-up"
-  data-aos-duration="3000">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="https://www.excelsior.edu/wp-content/uploads/2019/03/resume.jpg" class="img-fluid rounded-start"
-          alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Download your resume</h5>
-          <p class="card-text">Download your awesome resume and land the job you are looking for.</p>
-          <p class="card-text"><small class="text-muted"></small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--about us -->
-
-<section class="last-section" style="height: 200vh; background-color:#d3c8dd;">
-  <div class="About grad1" >
-    <h2 style=" 
+  <section class="last-section" style="height: 200vh; background-color:#d3c8dd;">
+    <div class="About grad1">
+      <h2 style=" 
     font-family: 'Cantata One';
     font-style: normal;
     font-weight: 400;
@@ -368,110 +385,117 @@
     text-align: center;
     
     color: #FFFFFF;">About Us</h2>
-    <div class="main-cnt">
-      <div class="abc">
-        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim officia distinctio, sequi recusandae nisi fuga. 
-        Nisi architecto natus fugiat qui maxime, pariatur ipsa quidem doloribus. Exercitationem laboriosam officia eius quasi!<br><br>
-        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim officia distinctio, sequi recusandae nisi fuga. 
-          Nisi architecto natus fugiat qui maxime, pariatur ipsa quidem doloribus. Exercitationem laboriosam officia eius quasi!
-        <br><br>
-        </p>
-      </div>
-      <div class="bcd">
-        <img style="margin-top: 60px !important; margin-right:50px; margin-bottom:80px; height:280px; width:400px; border-radius:27px;" src="./images/gdsc grp photo.jpg">
-      </div>
-    </div>
-  </div>
-  <div class="extra-info" >
-    <h4 style="color: #000;">Ready to jump-start your Career?</h4>
-    <input class="mail" placeholder="Enter Email"></input> <i class="fa-solid fa-arrow-right"></i>
-    <div class="inf">
-      <h4 style="color: #000;">Get in touch</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-       Adipisci quas libero excepturi dolor. accusantium, tenetur illum dolor!</p>
-      <div class="social-media">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-square-instagram"></i>
-        <i class="fa-brands fa-square-twitter"></i>
-        <i class="fa-brands fa-google-plus"></i>
-        <i class="fa-brands fa-github"></i>
-      </div>
-    </div>
-  </div>
-  <div class="Footer" style="background-color: #a18ba7;">
-    <div class="container text-center">
-      <div class="row">
-       
-        <div class="col">
-          Resume tips<br>
-          Tutorials <br>
-          Webinars<br>
-          Resume Examples<br>
-          CV Examples<br>
+      <div class="main-cnt">
+        <div class="abc">
+          <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim officia
+            distinctio, sequi recusandae nisi fuga.
+            Nisi architecto natus fugiat qui maxime, pariatur ipsa quidem doloribus. Exercitationem laboriosam officia
+            eius quasi!<br><br>
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim officia
+            distinctio, sequi recusandae nisi fuga.
+            Nisi architecto natus fugiat qui maxime, pariatur ipsa quidem doloribus. Exercitationem laboriosam officia
+            eius quasi!
+            <br><br>
+          </p>
         </div>
-        
-        <div class="col">
-          About Resumer <br>
-          Reviews<br>
-          Blog <br>
-          Accessibility<br>
-          Terms and Conditions <br>
-        </div>
-        <div class="col">
-          Contact <br>
-          Privacy Policy<br>
-          Support center<br>
-          Cookie Policy<br>
+        <div class="bcd">
+          <img
+            style="margin-top: 60px !important; margin-right:50px; margin-bottom:80px; height:280px; width:400px; border-radius:27px;"
+            src="./images/gdsc grp photo.jpg">
         </div>
       </div>
     </div>
-  </div>
-</section>
+    <div class="extra-info">
+      <h4 style="color: #000;">Ready to jump-start your Career?</h4>
+      <input class="mail" placeholder="Enter Email"></input> <i class="fa-solid fa-arrow-right"></i>
+      <div class="inf">
+        <h4 style="color: #000;">Get in touch</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Adipisci quas libero excepturi dolor. accusantium, tenetur illum dolor!</p>
+        <div class="social-media">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-google-plus"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </div>
+    <div class="Footer" style="background-color: #a18ba7;">
+      <div class="container text-center">
+        <div class="row">
+
+          <div class="col">
+            Resume tips<br>
+            Tutorials <br>
+            Webinars<br>
+            Resume Examples<br>
+            CV Examples<br>
+          </div>
+
+          <div class="col">
+            About Resumer <br>
+            Reviews<br>
+            Blog <br>
+            Accessibility<br>
+            Terms and Conditions <br>
+          </div>
+          <div class="col">
+            Contact <br>
+            Privacy Policy<br>
+            Support center<br>
+            Cookie Policy<br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-<section class="grad resume-section">
-  <h3>How to write a good resume ?</h3>
-  <div class="content-box">
-  <ul >
-    <li>Keep a consistent, easily-readable format.</li>
-    <li>Do highlight your most relevant experiences.</li>
-    <li>Don't steal the job desscription's exact wording.</li>
-    <li>Qualify and quantify your experiences whenever possible.Include numbers and percentages when possible.</li>
-    <li>Don't go over two pages.</li>
-    <li>Don't include long, generic objective statements. </li>
-    <li>Within each section, you must list expereinces in reverse chronological order, starting with the most recent.</li>
-  </ul>
-  </div>
+  <section class="grad resume-section">
+    <h3>How to write a good resume ?</h3>
+    <div class="content-box">
+      <ul>
+        <li>Keep a consistent, easily-readable format.</li>
+        <li>Do highlight your most relevant experiences.</li>
+        <li>Don't steal the job desscription's exact wording.</li>
+        <li>Qualify and quantify your experiences whenever possible.Include numbers and percentages when possible.</li>
+        <li>Don't go over two pages.</li>
+        <li>Don't include long, generic objective statements. </li>
+        <li>Within each section, you must list expereinces in reverse chronological order, starting with the most
+          recent.</li>
+      </ul>
+    </div>
 
-  <style>
-    
-  ul {
-    margin: 0.75em 0;
-    padding: 0 1em;
-    list-style: none;
-  }
-  li::before { 
-    content: "";
-    border-color: transparent #111;
-    border-style: solid;
-    border-width: 0.35em 0 0.35em 0.45em;
-    display: block;
-    height: 0;
-    width: 0;
-    left: -1em;
-    top: 0.9em;
-    position: relative;
-  }
-  </style>
+    <style>
+      ul {
+        margin: 0.75em 0;
+        padding: 0 1em;
+        list-style: none;
+      }
 
-</section>
+      li::before {
+        content: "";
+        border-color: transparent #111;
+        border-style: solid;
+        border-width: 0.35em 0 0.35em 0.45em;
+        display: block;
+        height: 0;
+        width: 0;
+        left: -1em;
+        top: 0.9em;
+        position: relative;
+      }
+    </style>
 
-
-
-    <!-- Footer -->
+  </section>
 
 
-    <!--<div class="footer-dark">
+
+  <!-- Footer -->
+
+
+  <!--<div class="footer-dark">
       <footer>
           <div class="container">
               <div class="row">
@@ -506,47 +530,44 @@
 
 
 
-   <script>
-      const loginText = document.querySelector(".title-text .login");
-      const loginForm = document.querySelector("form.login");
-      const loginBtn = document.querySelector("label.login");
-      const signupBtn = document.querySelector("label.signup");
-      const signupLink = document.querySelector("form .signup-link a");
-      const moon = document.querySelector('.fa-moon');
-      const sun = document.querySelector('.fa-sun');
-      moon.addEventListener('click',()=>{
-        document.body.classList.toggle('dark-theme');
-      })
-      sun.addEventListener('click',()=>{
-        document.body.classList.toggle('dark-theme');
-      })
-      signupBtn.onclick = (()=>{
-        loginForm.style.marginLeft = "-50%";
-        loginText.style.marginLeft = "-50%";
-      });
-      loginBtn.onclick = (()=>{
-        loginForm.style.marginLeft = "0%";
-        loginText.style.marginLeft = "0%";
-      });
-      signupLink.onclick = (()=>{
-        signupBtn.click();
-        return false;
-      });
-   </script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-      crossorigin="anonymous"
-    ></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+  <script>
+    const loginText = document.querySelector(".title-text .login");
+    const loginForm = document.querySelector("form.login");
+    const loginBtn = document.querySelector("label.login");
+    const signupBtn = document.querySelector("label.signup");
+    const signupLink = document.querySelector("form .signup-link a");
+    const moon = document.querySelector('.fa-moon');
+    const sun = document.querySelector('.fa-sun');
+    moon.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+    })
+    sun.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+    })
+    signupBtn.onclick = (() => {
+      loginForm.style.marginLeft = "-50%";
+      loginText.style.marginLeft = "-50%";
+    });
+    loginBtn.onclick = (() => {
+      loginForm.style.marginLeft = "0%";
+      loginText.style.marginLeft = "0%";
+    });
+    signupLink.onclick = (() => {
+      signupBtn.click();
+      return false;
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
