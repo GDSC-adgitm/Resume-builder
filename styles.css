@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+
 }
 
 body{
@@ -46,26 +46,6 @@ h3{
 
 
 
-.navbar-brand{
-    font-family: "ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.navbar{
-    padding: 0 0 4.5rem ;
-}
-
-.nav-link{
-    font-size: 1.2rem;
-    font-family: "Montserrat-Light";
-}
-
-.nav-item{
-    padding: 0 18px;
-}
-=======
-
 
 
 /*-----home---------*/
@@ -74,6 +54,7 @@ h3{
   margin: 0 !important; 
   padding: 0 !important;
   color: white;
+  margin-top: -40px !important;
  
 }
 .home-container{
